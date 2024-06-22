@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "typescript": "^5.5.2",
+    "xmldom": "^0.6.0"
+  },
+  "scripts": {
+    "compile": "tsc main.ts",
+    "start": "node main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8"
+  }
+}

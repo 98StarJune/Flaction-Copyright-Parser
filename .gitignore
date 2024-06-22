@@ -91,3 +91,6 @@ typings/
 .idea
 .vs
 .vscode
+
+# ETC
+./TextFile/output.txt
