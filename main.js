@@ -15,8 +15,7 @@ function printTitleAttributes(xml) {
     var books = xmlDoc.getElementsByTagName("a");
     var output;
     for (var i = 0; i < books.length; i++) {
-        var title = void 0;
-        title = books[i].getAttribute("title", function (e, d) { console.log("here"); });
+        var title = books[i].getAttribute("title");
         if (title) {
             var textContent = books[i].textContent || "";
             var match = textContent.match(/: (.*?) -/);
